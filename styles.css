@@ -5,32 +5,28 @@
 body {
 	background-color: #f1f1f1;
 	font-family:Arial, sans-serif;
-}
-
-.all {
 	max-width: 1400px;
 	margin: 0 auto;
-	width: 80%;
+	width: 100%;
+
 }
 
 form {
-	width: 100%;
+	width: 80%;
 	border: 0;
 	font-size: 14px;
-	margin: 0;
+	margin: 0 auto;
 	position: relative;
+	padding: 40px 0 0;
 }
-form {
-padding: 40px 0 0;
-margin: 0 auto;
-}
+
 input {
-		width: 80%;
+		width: 100%;
 		font-size: 700%;
 		background-color: #f1f1f1;
 		border: 0;
 		color: #ec5a62;
-		padding: 0 0 0 53px;
+		/* padding: 0 0 0 53px; */
 		font-weight: 600;
 	}
 input:active, 
@@ -52,7 +48,7 @@ button {
 		width: 60px;
 		padding: 0;
 		position: absolute;
-		right:80px;
+		right:10px;
 		top: 70px;
 		border:0;
 	}
@@ -61,6 +57,10 @@ button:focus
  {
 		transform: scale(1.5)
 }
+main {
+	margin: 0 auto;
+	width: 80%;
+}
 
 button:focus
  {
@@ -68,9 +68,12 @@ button:focus
 }
 .cont {
 	display: inline-block;
-	margin: 0 auto;
-	width: 33%;
-	padding: 0 0 0 53px;
+	margin: 0;
+	width: 30%;
+	/* padding: 0 0 0 53px; */
+}
+.cont1 {
+	margin-left: 46px;
 }
 h2 {
 		/* margin: 0 ; */
@@ -79,8 +82,9 @@ h2 {
 .st {
 	list-style-type: none;
 	display: inline-block;
-	padding: 0;
-	width: 80%;
+	padding: 20px 0;
+	width: 100%;
+	margin: 0;
 }
 
 li {
@@ -90,6 +94,7 @@ li {
 	margin: 5px 0;
 	font-weight:bold;
 	font-size: 0;
+	height: 66px;
 	
 }
 a {
@@ -121,7 +126,7 @@ p {
 	font-size: 14px;
 	display: inline-block;
 	vertical-align: middle;
-	max-height: 49px;
+	max-height: 50px;
 	overflow:hidden;
 	}
 
