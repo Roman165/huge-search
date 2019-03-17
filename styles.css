@@ -70,13 +70,11 @@ button:focus
 	display: inline-block;
 	margin: 0;
 	width: 30%;
-	/* padding: 0 0 0 53px; */
 }
 .cont1 {
-	margin-left: 46px;
+	margin-left: 3%;
 }
 h2 {
-		/* margin: 0 ; */
 		color: #c2c2c2; 
 	}
 .st {
@@ -85,6 +83,7 @@ h2 {
 	padding: 20px 0;
 	width: 100%;
 	margin: 0;
+	font-size: 0;
 }
 
 li {
@@ -92,8 +91,7 @@ li {
 	background-color: rgba(118,117,128,0.05);
 	border-radius: 8px;
 	margin: 5px 0;
-	font-weight:bold;
-	font-size: 0;
+	font-weight: bold;
 	height: 66px;
 	
 }
